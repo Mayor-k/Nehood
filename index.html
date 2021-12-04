@@ -1,0 +1,185 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <script src="index.js"></script>
+        <title> Nehood App</title>
+    </head>
+    <body>
+        <div class="container  p-5 p-lg-0">
+            <div class="row">
+                <div class="col-xl-7 col lg-7 col-md-5 info ">
+                    <h2>Nehood</h2>
+                    <h4>Connect with friends and neighbour on Nehood. 
+                    <p>Buy, sell, be informed and collaborate.</p></h4>
+                        </div>
+                        
+                <div class="col-xl-5 col-lg-5 col-md-8 form-group shadow">
+                    <form action="http://localhost:3001/index.html" method="post">
+                    <div class="my-3">
+                        <input type="text" class="form-control form-control-lg" placeholder="Enter email">
+                        <input type="password" class="form-control form-control-lg my-3" placeholder="Enter Password">
+                    </div>
+                    <div class="d-grid login">
+                        <button type="button" class="btn btn-primary btn-lg">Log In</button>
+                    </div>
+                    <div class="text-center passwrd my-3">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <hr>
+                    <div class="text-center button-1 my-3 ">
+                        <button type="button" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#modal">Sign Up</button>
+                    </div>
+                    </form>
+                        <div class="modal fade" id="modal">
+                        <div class="modal-dialog ">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <div>
+                                    <h4 class="modal-title">Welcome to <span class="mod">Nehood.</span></h4>
+                                    <p>Please sign up below:</p>
+                                    </div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+
+                                        <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="First name">
+                                        </div>
+                                        <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Last name">
+                                        </div>
+                                        <div class="my-3">
+                                            <input type="text" class="form-control" placeholder="Mobile number or email">
+                                        </div>
+                                        <div class="my-3">
+                                            <input type="password" class="form-control" placeholder="Enter Password">
+                                        </div>
+                                        <div class="my-3">
+                                            <input type="text" class="form-control" placeholder="Adress line 1">
+                                        </div>
+                                        <div class=" row my-3">
+                                            <div class="col-8">
+                                            <input type="text" class="form-control"
+                                                placeholder="Adress line 2">
+                                                </div>
+                                                <div class="col-4">
+                                                    <input type="text" class="form-control" placeholder="Postal Code">
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <label for="Birthday" class="form-input-label d-flex">Birthday</label>
+                                                <select class="form-select">
+                                                    <option>Jan</option>
+                                                    <option>Feb</option>
+                                                    <option>Mar</option>
+                                                    <option>Apr</option>
+                                                    <option>May</option>
+                                                    <option>Jun</option>
+                                                    <option>Jul</option>
+                                                    <option>Aug</option>
+                                                    <option>Sep</option>
+                                                    <option>Oct</option>
+                                                    <option>Nov</option>
+                                                    <option>Dec</option>
+                                                </select>
+                                                </div>
+                                                <div class="col-4" my-5>
+                                                    <label for=""></label>
+                                                <select class="form-select">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                                <option>13</option>
+                                                <option>14</option>
+                                                <option>15</option>
+                                                <option>16</option>
+                                                <option>17</option>
+                                                <option>18</option>
+                                                <option>19</option>
+                                                <option>19</option>
+                                                <option>20</option>
+                                                <option>21</option>
+                                                <option>22</option>
+                                                <option>23</option>
+                                                <option>24</option>
+                                                <option>25</option>
+                                                <option>26</option>
+                                                <option>27</option>
+                                                <option>28</option>
+                                                <option>29</option>
+                                                <option>30</option>
+                                                <option>31</option>
+                                                </select>
+                                                </div>
+                                                <div class="col-4">
+                                                    <label for=""></label>
+                                                    <select class="form-select" id="year">
+                                                    </select>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="my-3">
+                                                        <label for="Gender" class="d-flex">Gender</label>
+                                                        <select class="form-select">
+                                                            <option>Male</option>
+                                                            <option>Female</option>
+                                                            <option>Decline</option>
+                                                        </select>
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                                </div>
+                                                
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer text-center d-block">
+                                            <button type="button" class="btn btn-lg">Sign Up</button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                </div>
+
+                </div>
+            
+            
+                        
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    </body>
+    </html>
